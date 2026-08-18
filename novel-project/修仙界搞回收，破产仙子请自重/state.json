@@ -1,0 +1,38 @@
+{
+  "total": 30,
+  "chapters": {
+    "1": {
+      "情报包": true,
+      "锁细纲": true,
+      "起草": true,
+      "双盲批判": true,
+      "定向重写": true,
+      "去AI味": true,
+      "排版": true,
+      "一致性": true,
+      "回灌": true
+    },
+    "2": {
+      "情报包": true,
+      "锁细纲": true,
+      "起草": true,
+      "双盲批判": true,
+      "定向重写": true,
+      "去AI味": true,
+      "排版": true,
+      "一致性": true,
+      "回灌": true
+    },
+    "3": {
+      "情报包": true,
+      "锁细纲": true,
+      "起草": true,
+      "双盲批判": true,
+      "定向重写": true,
+      "去AI味": true,
+      "排版": true,
+      "一致性": true,
+      "回灌": true
+    }
+  }
+}

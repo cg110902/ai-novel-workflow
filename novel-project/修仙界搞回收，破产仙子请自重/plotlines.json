@@ -1,0 +1,58 @@
+[
+  {
+    "id": "V01",
+    "content": "系统来源=上古回收仙尊传承，与前世《废宝录》同源",
+    "opened_ch": "1",
+    "plan": "第三幕",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V02",
+    "content": "前世出卖顾央的'老友'身份（夺《废宝录》、背后一刀）",
+    "opened_ch": "1",
+    "plan": "第三幕",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V03",
+    "content": "洛倾雪断簪=青鸾簪（回收仙尊随身物，点废成宝钥匙）",
+    "opened_ch": "1",
+    "plan": "中期（簪中传承）",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V05",
+    "content": "王管事克扣例钱背后的账房/执事",
+    "opened_ch": "1",
+    "plan": "第一卷",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V04",
+    "content": "玄女宫三月前倾覆真相（洛倾雪巨债、断簪、宗门遗物）",
+    "opened_ch": "2",
+    "plan": "第二幕末",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V07",
+    "content": "断魂剑残片（上古之物，前世《废宝录》有载，两枚下品灵石捡漏）",
+    "opened_ch": "2",
+    "plan": "第一卷",
+    "closed_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "V06",
+    "content": "孙记典当二楼神秘人，认得青鸾气息，下令查顾央",
+    "opened_ch": "3",
+    "plan": "第三幕",
+    "closed_ch": null,
+    "status": "open"
+  }
+]

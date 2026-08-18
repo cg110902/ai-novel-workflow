@@ -73,13 +73,13 @@ def strip_markdown(text):
 
 def strip_dialogue(text):
     text = re.sub(r'"[^"]*"', '""', text)
-    text = re.sub(r'"[^"]*"', '""', text)
+    text = re.sub(r'“[^”]*”', '“”', text)
     text = re.sub(r'【[^】]*】', '【】', text)
     return text
 
 def dialogues(text):
     ds = re.findall(r'"([^"]*)"', text)
-    ds += re.findall(r'"([^"]*)"', text)
+    ds += re.findall(r'“([^”]*)”', text)
     ds += re.findall(r'【([^】]*)】', text)
     return ds
 
@@ -188,7 +188,7 @@ def check_metaphors(cfg, text, r):
 def check_rhythm(cfg, text, r):
     print("【4】句长节奏 (完整句口径, 对话/系统消息不计入)")
     body = strip_markdown(strip_dialogue(text))
-    body = body.replace(""", " ").replace(""", " ").replace("【】", " ")
+    body = body.replace('"', ' ').replace('“', ' ').replace('”', ' ').replace('【】', ' ')
     sents = [s for s in split_full(body) if s.strip()]
     lens = [len(s) for s in sents]
     if not lens:
@@ -234,7 +234,7 @@ def check_rhythm(cfg, text, r):
 def check_paragraphs(cfg, text, r):
     print("【5】段落节奏")
     body = strip_markdown(text)
-    body = body.replace(""", " ").replace(""", " ").replace("【】", " ")
+    body = body.replace('"', ' ').replace('“', ' ').replace('”', ' ').replace('【】', ' ')
     paras = [p for p in re.split(r"\n\s*\n", body) if cjk(p) > 0]
     if not paras:
         print("    ⚠ 无段落")
