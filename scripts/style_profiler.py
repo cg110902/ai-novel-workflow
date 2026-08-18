@@ -30,12 +30,12 @@ def strip_markdown(text):
 
 def strip_dialogue(text):
     text = re.sub(r'"[^"]*"', '""', text)
-    text = re.sub(r'"[^"]*"', '""', text)
+    text = re.sub(r'“[^”]*”', '“”', text)
     return text
 
 def dialogues(text):
     ds = re.findall(r'"([^"]*)"', text)
-    ds += re.findall(r'"([^"]*)"', text)
+    ds += re.findall(r'“([^”]*)”', text)
     return ds
 
 def profile(path):

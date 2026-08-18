@@ -1,0 +1,22 @@
+[
+  {
+    "id": "M01",
+    "who": "洛倾雪",
+    "about": "顾央",
+    "content": "懂灵器成色的隐世高人/鉴宝大佬",
+    "degree": "深信",
+    "opened_ch": "2",
+    "burst_ch": null,
+    "status": "open"
+  },
+  {
+    "id": "M02",
+    "who": "顾央",
+    "about": "洛倾雪",
+    "content": "讹钱的女骗子/甩不掉的麻烦",
+    "degree": "将信将疑",
+    "opened_ch": "2",
+    "burst_ch": null,
+    "status": "open"
+  }
+]

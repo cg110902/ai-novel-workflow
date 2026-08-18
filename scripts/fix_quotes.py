@@ -24,8 +24,8 @@ def norm(text):
         if in_code:
             out.append(line)
             continue
-        line = re.sub(r'"([^"\n]*)"', r'"\\1"', line)
-        line = re.sub(r"'([^'\n]*)'", r"''\\1'", line)
+        line = re.sub(r'"([^"\n]*)"', r'“\1”', line)
+        line = re.sub(r"'([^'\n]*)'", r'‘\1’', line)
         out.append(line)
     return "\n".join(out)
 
